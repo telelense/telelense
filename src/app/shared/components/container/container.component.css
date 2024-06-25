@@ -1,0 +1,22 @@
+.wrap {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-height: 530px;
+  background-color: #eee;
+}
+
+.side-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+}
+
+.content {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  margin-left: 200px;
+  padding: 15px 20px;
+}

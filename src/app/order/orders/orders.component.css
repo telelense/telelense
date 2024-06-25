@@ -1,0 +1,25 @@
+.title-bar {
+  position: relative;
+  padding-right: 80px;
+}
+
+.title-bar .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 18px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.list-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.order-table {
+  width: 100%;
+  background-color: transparent;
+}

@@ -1,0 +1,16 @@
+<div class="wrap">
+  <div class="container">
+    <div class="user">
+      <div class="avatar" [style.backgroundImage]="userImage"></div>
+      <div class="name">{{ userName }}</div>
+    </div>
+    <div class="summary"></div>
+    <mat-selection-list class="menu" role="list" [multiple]="false">
+      <mat-list-option role="listitem">Area</mat-list-option>
+      <mat-list-option role="listitem">Equipment</mat-list-option>
+      <mat-list-option role="listitem">Edit Information</mat-list-option>
+      <mat-list-option role="listitem">Payment Information</mat-list-option>
+      <mat-list-option class="logout" role="listitem">Logout</mat-list-option>
+    </mat-selection-list>
+  </div>
+</div>
